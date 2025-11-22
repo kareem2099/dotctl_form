@@ -281,7 +281,7 @@ export default function AdminDashboard() {
 
       if (statsRes.ok) {
         const statsData = await statsRes.json();
-        setStats(statsData);
+        setStats(statsData.stats);
       }
 
       if (usersRes.ok) {
