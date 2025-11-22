@@ -1,0 +1,128 @@
+{
+  "header": {
+    "title": "Essayez DotCTL",
+    "subtitle": "Rejoignez notre liste d'accès bêta",
+    "description": "Vous avez été ajouté à la liste d'accès bêta de DotCTL. Nous vous contacterons bientôt!",
+    "draftSaved": "Brouillon sauvegardé",
+    "draftCleared": "Brouillon effacé",
+    "clearDraft": "Effacer le brouillon"
+  },
+  "steps": {
+    "personal": "Informations personnelles",
+    "about": "À propos de vous",
+    "interests": "Intérêts",
+    "step": "Étape",
+    "of": "sur"
+  },
+  "fields": {
+    "name": {
+      "label": "Nom complet",
+      "placeholder": "Votre nom complet",
+      "valid": "✓ Nom valide",
+      "invalid": "✗"
+    },
+    "email": {
+      "label": "Adresse e-mail",
+      "placeholder": "votre.email@exemple.com",
+      "valid": "✓ Format d'e-mail valide",
+      "invalid": "✗"
+    },
+    "phone": {
+      "label": "Numéro de téléphone",
+      "placeholder": "Entrez votre numéro de téléphone",
+      "valid": "✓ Numéro de téléphone valide",
+      "invalid": "Veuillez entrer un numéro de téléphone valide",
+      "required": "Le numéro de téléphone est requis"
+    },
+    "useCase": {
+      "label": "Comment utiliserez-vous DotCTL?",
+      "placeholder": "Veuillez nous dire votre cas d'utilisation spécifique pour DotCTL. Quels problèmes souhaitez-vous résoudre ou quelles fonctionnalités vous intéressent le plus?",
+      "valid": "✓ Description du cas d'utilisation valide",
+      "invalid": "✗",
+      "chars": "caractères"
+    },
+    "skillLevel": {
+      "label": "Votre niveau de compétence",
+      "beginner": "Débutant - Nouveau dans les outils réseau",
+      "intermediate": "Intermédiaire - Quelques connaissances réseau",
+      "advanced": "Avancé - Ingénieur réseau expert",
+      "required": "Veuillez sélectionner votre niveau de compétence",
+      "invalid": "✗"
+    },
+    "features": {
+      "label": "Intérêts des fonctionnalités",
+      "required": "Veuillez sélectionner au moins une fonctionnalité qui vous intéresse",
+      "max": "Veuillez sélectionner au maximum 5 fonctionnalités",
+      "advanced": "Les utilisateurs avancés doivent sélectionner au moins 2 fonctionnalités",
+      "arp_spoofing": "ARP Spoofing & MITM",
+      "bandwidth_limiting": "Limitation de bande passante",
+      "traffic_monitoring": "Surveillance et analyse du trafic",
+      "dns_spoofing": "DNS Spoofing & redirection",
+      "content_injection": "Injection de contenu",
+      "session_hijacking": "Détournement de session",
+      "deep_packet_inspection": "Inspection profonde des paquets",
+      "stealth_features": "Discrétion et évasion",
+      "ml_traffic_analysis": "Analyse du trafic par IA"
+    },
+    "referral": {
+      "label": "Comment avez-vous entendu parler de DotCTL?",
+      "github": "GitHub",
+      "stackoverflow": "Stack Overflow",
+      "twitter": "Twitter",
+      "linkedin": "LinkedIn",
+      "reddit": "Reddit",
+      "hacker_news": "Hacker News",
+      "search": "Moteur de recherche",
+      "friend": "Ami/Collègue",
+      "article": "Blog/Article",
+      "other": "Autre",
+      "required": "Veuillez sélectionner comment vous avez entendu parler de DotCTL"
+    },
+    "updates": {
+      "label": "Envoyez-moi les mises à jour sur les progrès de la bêta DotCTL"
+    },
+    "buttons": {
+      "back": "Retour",
+      "next": "Suivant",
+      "submit": "Obtenir l'accès bêta",
+      "submitting": "Soumission en cours..."
+    }
+  },
+  "validation": {
+    "name": {
+      "min": "Le nom doit contenir au moins 2 caractères",
+      "max": "Le nom doit contenir moins de 50 caractères",
+      "regex": "Le nom ne peut contenir que des lettres, espaces, tirets et apostrophes"
+    },
+    "email": {
+      "required": "L'e-mail est requis",
+      "invalid": "Veuillez entrer une adresse e-mail valide",
+      "max": "L'adresse e-mail est trop longue",
+      "format": "Format d'e-mail invalide"
+    },
+    "phone": {
+      "min": "Le numéro de téléphone doit contenir au moins 10 chiffres",
+      "max": "Le numéro de téléphone est trop long",
+      "regex": "Le numéro de téléphone ne peut contenir que des chiffres, espaces, tirets, parenthèses et +"
+    },
+    "useCase": {
+      "min": "Veuillez fournir au moins 10 caractères décrivant votre cas d'utilisation",
+      "max": "La description du cas d'utilisation est trop longue (maximum 500 caractères)",
+      "spam": "Veuillez fournir une description de cas d'utilisation réelle"
+    },
+    "warnings": {
+      "limit": "Avertissement: Proche de la limite de caractères ({{current}}/{{max}})"
+    }
+  },
+  "agreement": {
+    "prefix": "En soumettant ce formulaire, vous acceptez nos",
+    "termsLink": "Conditions de Service",
+    "and": "et",
+    "privacyLink": "Politique de Confidentialité"
+  },
+  "errors": {
+    "network": "Erreur réseau. Veuillez réessayer.",
+    "duplicate": "Cet e-mail est déjà enregistré",
+    "generic": "Quelque chose s'est mal passé. Veuillez réessayer."
+  }
+}

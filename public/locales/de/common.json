@@ -1,0 +1,146 @@
+{
+  "language": {
+    "english": "English",
+    "arabic": "العربية",
+    "french": "Français",
+    "german": "Deutsch",
+    "russian": "Русский",
+    "spanish": "Español"
+  },
+  "nav": {
+    "back": "Zurück",
+    "next": "Weiter",
+    "submit": "Senden",
+    "saving": "Speichern...",
+    "submitting": "Senden..."
+  },
+  "status": {
+    "saved": "Entwurf gespeichert",
+    "cleared": "Entwurf gelöscht",
+    "loading": "Laden...",
+    "success": "Erfolg!",
+    "error": "Fehler aufgetreten"
+  },
+  "validation": {
+    "valid": "Gültig",
+    "invalid": "Ungültig",
+    "required": "Erforderlich"
+  },
+  "home": {
+    "title": "DotCTL",
+    "subtitle": "Erweiterte Netzwerksteuerung & Überwachung",
+    "description": "Öbernehmen Sie die Kontrolle über Ihren Netzwerkverkehr mit professionellen Tools",
+    "trafficControl": "Traffic Control",
+    "trafficControlDesc": "Konfigurieren Sie Bandbreitengrenzen, Verkehrsweiterleitung und Netzwerkrichtlinien",
+    "deepInspection": "Deep Inspection",
+    "deepInspectionDesc": "Analysieren Sie Paket-Header, Inhaltsfilterung und Protokollerkennung",
+    "betaProgram": "Beta-Programm",
+    "betaProgramDesc": "Treten Sie unserer exklusiven Beta bei, um die neuesten Funktionen zuerst auszuprobieren",
+    "checkStatusButton": "Status überprüfen",
+    "joinBetaButton": "Beta-Programm beitreten",
+    "accessNote": "Bereits Zugang? Überprüfen Sie Ihren Beta-Status, um Ihr Dashboard anzuzeigen"
+  },
+  "check": {
+    "welcomeBack": "Willkommen zurück!",
+    "checkStatus": "Überprüfen Sie Ihren Beta-Zugangsstatus",
+    "emailPlaceholder": "Geben Sie Ihre E-Mail-Adresse ein",
+    "continueButton": "Weiter",
+    "checkingButton": "Überprüfung...",
+    "newUser": "Neuer Benutzer? Wir führen Sie durch den Anmeldeprozess.",
+    "goToSignup": "Zum Anmeldeformular gehen →",
+    "homeButton": "Startseite",
+    "errorMessage": "Registrierungsstatus kann nicht überprüft werden"
+  },
+  "dashboard": {
+    "loading": {
+      "title": "Dashboard laden...",
+      "subtitle": "Überprüfe deinen Beta-Zugang"
+    },
+    "error": {
+      "title": "Fehler",
+      "connectionError": "Verbindungsfehler. Bitte versuche es erneut.",
+      "unknownError": "Überprüfung deines Status nicht möglich"
+    },
+    "access": {
+      "restricted": {
+        "title": "Zugang eingeschränkt",
+        "message": "Du benötigst Beta-Zugang, um dieses Dashboard zu sehen.",
+        "checkStatus": "Status überprüfen",
+        "joinBeta": "Beta-Programm beitreten"
+      }
+    },
+    "referral": {
+      "accessGranted": "Beta-Zugang gewährt!",
+      "waitlistMessage": "Du bist auf der Warteliste und bereit, Belohnungen zu verdienen",
+      "yourCode": "Dein Empfehlungscode",
+      "shareInstruction": "Teile diesen Code oder Link mit Freunden, um kostenlose Pro-Monaten zu verdienen!",
+      "copyLink": "Teilen-Link kopieren",
+      "linkCopied": "Teilen-Link in Zwischenablage kopiert!",
+      "qrCode": "QR-Code zum Teilen",
+      "qrDescription": "Perfekt für mobile Teilen - Freunde können einfach diesen Code scannen!",
+      "downloadQr": "QR herunterladen",
+      "printCard": "Karte drucken",
+      "qrTip": "💡 Tipp: Teile diesen QR-Code auf Visitenkarten, Flyern oder wo immer dein Publikum ihn leicht scannen kann!"
+    },
+    "socialShare": {
+      "title": "Auf Sozialen Medien teilen:"
+    },
+    "sharing": {
+      "hashtags": {
+        "joinBeta": "🚀 Trete DotCTL Beta bei! 🔑 Code: {{code}} {{link}}",
+        "joinBetaShort": "🚀 Trete DotCTL Beta bei! Code: {{code}}",
+        "ultimateTool": "🚀 Trete DotCTL Beta bei - das ultimative Netzwerk-Traffic-Kontrollwerkzeug!",
+        "useCode": "🔑 Verwende meinen Empfehlungscode: {{code}}",
+        "earnFree": "✨ Kostenlose Pro-Monaten verdienen, wenn du über meinen Link beitritt!",
+        "combinedMessage": "🚀 Trete DotCTL Beta bei - das ultimative Netzwerk-Traffic-Kontrollwerkzeug!\n\n🔑 Verwende meinen Empfehlungscode: {{code}}\n\n✨ Kostenlose Pro-Monaten verdienen, wenn du über meinen Link beitritt!\n\n{{link}}"
+      }
+    },
+    "achievements": {
+      "title": "Deine Erfolge",
+      "earnedFrom": "Verdient von {{count}} Empfehlung",
+      "earnedFromPlural": "Verdient von {{count}} Empfehlungen"
+    },
+    "stats": {
+      "referrals": "Empfehlungen",
+      "rewardMonths": "Belohnungsmonaten"
+    },
+    "progress": {
+      "remaining": "{{count}} weitere Empfehlung benötigt",
+      "remainingPlural": "{{count}} weitere Empfehlungen benötigt",
+      "reward": "Belohnung: {{reward}} + zusätzliche kostenlose Pro-Zeit! ✨"
+    },
+    "subscription": {
+      "title": "Dein kostenloser Pro-Zugang",
+      "earnedFrom": "Verdient von {{count}} Empfehlung",
+      "earnedFromPlural": "Verdient von {{count}} Empfehlungen"
+    },
+    "Actions": {
+      "tryAgain": "Erneut versuchen",
+      "checkAnotherEmail": "Andere E-Mail überprüfen",
+      "notYourAccount": "Nicht dein Konto? Andere E-Mail überprüfen"
+    },
+    "milestones": {
+      "earlyInfluencer": {
+        "name": "Früher Einflussnehmer",
+        "reward": "2 Bonusmonaten"
+      },
+      "communityBuilder": {
+        "name": "Gemeinschafts-Bauer",
+        "reward": "3 Bonusmonaten"
+      },
+      "referralChampion": {
+        "name": "Empfehlungs-Champion",
+        "reward": "5 Bonusmonaten"
+      },
+      "viralForce": {
+        "name": "Viral-Kraft",
+        "reward": "10 Bonusmonaten"
+      },
+      "superSpreader": {
+        "name": "Super-Verbreiter",
+        "reward": "20 Bonusmonaten"
+      },
+      "progressTo": "Fortschritt zu {{milestone}}"
+    }
+  }
+}

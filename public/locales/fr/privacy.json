@@ -1,0 +1,93 @@
+{
+  "header": {
+    "title": "Politique de confidentialité",
+    "lastUpdated": "Dernière mise à jour : novembre 2025"
+  },
+  "introduction": {
+    "title": "Introduction",
+    "paragraph1": "Cette Politique de confidentialité décrit comment nous collectons, utilisons et protégeons vos informations personnelles lorsque vous utilisez DotCTL (« le Logiciel ») ou visitez notre site web.",
+    "paragraph2": "Nous nous engageons à protéger votre confidentialité et à respecter les lois applicables sur la protection des données."
+  },
+  "information": {
+    "title": "Informations que nous collectons",
+    "automatic": {
+      "title": "Informations collectées automatiquement",
+      "point1": "Informations sur l'appareil et le réseau (adresse IP, détails d'interface réseau)",
+      "point2": "Statistiques d'utilisation du logiciel et métriques de performance",
+      "point3": "Journaux d'erreurs et informations de débogage",
+      "point4": "Informations sur le navigateur et le système d'exploitation lors de l'utilisation de nos services web"
+    },
+    "provided": {
+      "title": "Informations que vous nous fournissez",
+      "point1": "Adresse email et informations de contact lors de l'inscription pour l'accès bêta",
+      "point2": "Retours, rapports de bugs et demandes de fonctionnalités que vous soumettez",
+      "point3": "Historique de communication lorsque vous contactez notre équipe de support",
+      "point4": "Réponses aux enquêtes et données de recherche utilisateur"
+    }
+  },
+  "use": {
+    "title": "Comment nous utilisons vos informations",
+    "purpose1": "Fournir, maintenir et améliorer DotCTL",
+    "purpose2": "Communiquer avec vous à propos de mises à jour, fonctionnalités et support",
+    "purpose3": "Analyser les modèles d'utilisation et améliorer l'expérience utilisateur",
+    "purpose4": "Diagnostiquer les problèmes techniques et fournir un support client",
+    "purpose5": "Se conformer aux obligations légales et appliquer nos Conditions d'utilisation",
+    "purpose6": "Mener des recherches et du développement pour de futures fonctionnalités produit"
+  },
+  "sharing": {
+    "title": "Partage et divulgation d'informations",
+    "paragraph1": "Nous ne vendons, n'échangeons ni ne transférons vos informations personnelles à des tiers sans votre consentement, sauf comme décrit dans cette Politique de confidentialité.",
+    "serviceProviders": "Nous pouvons partager vos informations avec des fournisseurs de services de confiance qui nous aident à exploiter notre site web et notre logiciel (par exemple, fournisseurs d'hébergement, services d'analyse), sous réserve d'accords stricts de confidentialité.",
+    "legal": "Nous pouvons divulguer vos informations si requis par la loi, subpoena ou processus judiciaire, ou pour protéger nos droits ou la sécurité des autres.",
+    "aggregate": "Nous pouvons partager des données agrégées et anonymisées sur l'utilisation du logiciel à des fins de recherche et de référence sectorielle."
+  },
+  "dataSecurity": {
+    "title": "Sécurité des données",
+    "paragraph1": "Nous mettons en œuvre des mesures techniques et organisationnelles appropriées pour protéger vos informations personnelles contre l'accès non autorisé, l'altération, la divulgation ou la destruction.",
+    "paragraph2": "Cela comprend le cryptage des données sensibles, l'hébergement sécurisé, les audits de sécurité réguliers et les contrôles d'accès.",
+    "paragraph3": "Cependant, aucune méthode de transmission sur internet ou de stockage électronique n'est 100% sécurisée, et nous ne pouvons garantir une sécurité absolue."
+  },
+  "dataRetention": {
+    "title": "Rétention des données",
+    "paragraph1": "Nous retenons vos informations personnelles uniquement aussi longtemps que nécessaire pour remplir les fins énoncées dans cette Politique de confidentialité, ou comme requis par la loi.",
+    "paragraph2": "Les données des utilisateurs bêta seront conservées tout au long de la période bêta et pendant un temps raisonnable après pour des fins de support et d'amélioration.",
+    "paragraph3": "Vous pouvez demander la suppression de vos informations personnelles à tout moment en nous contactant."
+  },
+  "cookies": {
+    "title": "Cookies et technologies de suivi",
+    "paragraph1": "Notre site web peut utiliser des cookies, web beacons et technologies similaires pour améliorer votre expérience et analyser l'utilisation du site.",
+    "paragraph2": "Ces technologies nous aident à comprendre comment les visiteurs utilisent notre site et fournissent une meilleure fonctionnalité.",
+    "paragraph3": "Vous pouvez contrôler les paramètres des cookies via les préférences de votre navigateur."
+  },
+  "international": {
+    "title": "Transferts de données internationaux",
+    "paragraph1": "Vos informations peuvent être traitées et stockées dans des pays autres que le vôtre, où les lois sur la protection des données peuvent différer.",
+    "paragraph2": "Nous nous assurons que tout transfert international respecte les lois applicables sur la protection des données et maintient des safeguards appropriés."
+  },
+  "children": {
+    "title": "Confidentialité des enfants",
+    "paragraph1": "DotCTL n'est pas destiné à être utilisé par des individus de moins de 18 ans.",
+    "paragraph2": "Nous ne collectons pas consciemment d'informations personnelles auprès d'enfants de moins de 18 ans."
+  },
+  "rights": {
+    "title": "Vos droits et choix",
+    "point1": "Accès : Demander une copie des informations personnelles que nous détenons à votre sujet",
+    "point2": "Correction : Demander la correction d'informations inexactes ou incomplètes",
+    "point3": "Suppression : Demander la suppression de vos informations personnelles (sous réserve de limitations légales)",
+    "point4": "Portabilité : Demander le transfert de vos données dans un format structuré",
+    "point5": "Objection : S'opposer à notre traitement de vos informations personnelles",
+    "point6": "Restriction : Demander la restriction du traitement dans certaines circonstances"
+  },
+  "changes": {
+    "title": "Changements dans cette Politique de confidentialité",
+    "paragraph1": "Nous pouvons mettre à jour cette Politique de confidentialité de temps à autre pour refléter les changements dans nos pratiques ou les exigences légales.",
+    "paragraph2": "Nous vous informerons de tout changement matériel par le biais de notre site web ou par d'autres moyens appropriés.",
+    "paragraph3": "Votre utilisation continue de DotCTL après les changements constitue l'acceptation de la Politique de confidentialité mise à jour."
+  },
+  "contact": {
+    "title": "Contactez-nous",
+    "paragraph1": "Si vous avez des questions sur cette Politique de confidentialité ou nos pratiques de données, veuillez nous contacter à :",
+    "email": "privacy@dotctl.com",
+    "paragraph2": "Nous répondrons à vos demandes dans les 30 jours."
+  }
+}

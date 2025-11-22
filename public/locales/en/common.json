@@ -1,0 +1,146 @@
+{
+  "language": {
+    "english": "English",
+    "arabic": "العربية",
+    "french": "Français",
+    "german": "Deutsch",
+    "russian": "Русский",
+    "spanish": "Español"
+  },
+  "nav": {
+    "back": "Back",
+    "next": "Next",
+    "submit": "Submit",
+    "saving": "Saving...",
+    "submitting": "Submitting..."
+  },
+  "status": {
+    "saved": "Draft saved",
+    "cleared": "Draft cleared",
+    "loading": "Loading...",
+    "success": "Success!",
+    "error": "Error occurred"
+  },
+  "validation": {
+    "valid": "Valid",
+    "invalid": "Invalid",
+    "required": "Required"
+  },
+  "home": {
+    "title": "DotCTL",
+    "subtitle": "Advanced Network Control & Monitoring",
+    "description": "Take control of your network traffic with professional-grade tools",
+    "trafficControl": "Traffic Control",
+    "trafficControlDesc": "Configure bandwidth limits, traffic routing, and network policies",
+    "deepInspection": "Deep Inspection",
+    "deepInspectionDesc": "Analyze packet headers, content filtering, and protocol detection",
+    "betaProgram": "Beta Program",
+    "betaProgramDesc": "Join our exclusive beta to try the latest features first",
+    "checkStatusButton": "Check Your Status",
+    "joinBetaButton": "Join Beta Program",
+    "accessNote": "Already have access? Check your beta status to view your dashboard"
+  },
+  "check": {
+    "welcomeBack": "Welcome Back!",
+    "checkStatus": "Check your beta access status",
+    "emailPlaceholder": "Enter your email address",
+    "continueButton": "Continue",
+    "checkingButton": "Checking...",
+    "newUser": "New user? We'll guide you through the signup process.",
+    "goToSignup": "Go to signup form →",
+    "homeButton": "Home",
+    "errorMessage": "Unable to verify registration status"
+  },
+  "dashboard": {
+    "loading": {
+      "title": "Loading Dashboard...",
+      "subtitle": "Verifying your beta access"
+    },
+    "error": {
+      "title": "Error",
+      "connectionError": "Connection error. Please try again.",
+      "unknownError": "Unable to verify your status"
+    },
+    "access": {
+      "restricted": {
+        "title": "Access Restricted",
+        "message": "You need beta access to view this dashboard.",
+        "checkStatus": "Check Your Status",
+        "joinBeta": "Join Beta Program"
+      }
+    },
+    "referral": {
+      "accessGranted": "Beta Access Granted!",
+      "waitlistMessage": "You're on the waitlist and ready to earn rewards",
+      "yourCode": "Your Referral Code",
+      "shareInstruction": "Share this code or link with friends to earn free pro months!",
+      "copyLink": "Copy Share Link",
+      "linkCopied": "Share link copied to clipboard!",
+      "qrCode": "QR Code for Sharing",
+      "qrDescription": "Perfect for mobile sharing - friends can just scan this code!",
+      "downloadQr": "Download QR",
+      "printCard": "Print Card",
+      "qrTip": "💡 Tip: Share this QR code on business cards, flyers, or anywhere your audience can easily scan it!"
+    },
+    "socialShare": {
+      "title": "Share on social media:"
+    },
+    "sharing": {
+      "hashtags": {
+        "joinBeta": "🚀 Join DotCTL Beta! 🔑 Code: {{code}} {{link}}",
+        "joinBetaShort": "🚀 Join DotCTL Beta! Code: {{code}}",
+        "ultimateTool": "🚀 Join DotCTL Beta - the ultimate network traffic control tool!",
+        "useCode": "🔑 Use my referral code: {{code}}",
+        "earnFree": "✨ Earn free pro months when you join through my link!",
+        "combinedMessage": "🚀 Join DotCTL Beta - the ultimate network traffic control tool!\n\n🔑 Use my referral code: {{code}}\n\n✨ Earn free pro months when you join through my link!\n\n{{link}}"
+      }
+    },
+    "achievements": {
+      "title": "Your Achievements",
+      "earnedFrom": "Earned from {{count}} referral",
+      "earnedFromPlural": "Earned from {{count}} referrals"
+    },
+    "stats": {
+      "referrals": "Referrals",
+      "rewardMonths": "Reward Months"
+    },
+    "progress": {
+      "remaining": "{{count}} more referral needed",
+      "remainingPlural": "{{count}} more referrals needed",
+      "reward": "Reward: {{reward}} + extra free pro time! ✨"
+    },
+    "subscription": {
+      "title": "Your Free Pro Access",
+      "earnedFrom": "Earned from {{count}} referral",
+      "earnedFromPlural": "Earned from {{count}} referrals"
+    },
+    "Actions": {
+      "tryAgain": "Try Again",
+      "checkAnotherEmail": "Check Another Email",
+      "notYourAccount": "Not your account? Check another email"
+    },
+    "milestones": {
+      "earlyInfluencer": {
+        "name": "Early Influencer",
+        "reward": "2 bonus months"
+      },
+      "communityBuilder": {
+        "name": "Community Builder",
+        "reward": "3 bonus months"
+      },
+      "referralChampion": {
+        "name": "Referral Champion",
+        "reward": "5 bonus months"
+      },
+      "viralForce": {
+        "name": "Viral Force",
+        "reward": "10 bonus months"
+      },
+      "superSpreader": {
+        "name": "Super Spreader",
+        "reward": "20 bonus months"
+      },
+      "progressTo": "Progress to {{milestone}}"
+    }
+  }
+}

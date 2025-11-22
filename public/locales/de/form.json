@@ -1,0 +1,128 @@
+{
+  "header": {
+    "title": "DotCTL testen",
+    "subtitle": "Melden Sie sich für unsere Beta-Liste an",
+    "description": "Sie wurden zur Try DotCTL Beta-Zugangsliste hinzugefügt. Wir melden uns bald bei Ihnen!",
+    "draftSaved": "Entwurf gespeichert",
+    "draftCleared": "Entwurf gelöscht",
+    "clearDraft": "Entwurf löschen"
+  },
+  "steps": {
+    "personal": "Persönliche Informationen",
+    "about": "Über Sie",
+    "interests": "Interessen",
+    "step": "Schritt",
+    "of": "von"
+  },
+  "fields": {
+    "name": {
+      "label": "Vollständiger Name",
+      "placeholder": "Ihr vollständiger Name",
+      "valid": "✓ Gültiger Name",
+      "invalid": "✗"
+    },
+    "email": {
+      "label": "E-Mail-Adresse",
+      "placeholder": "ihre.email@beispiel.com",
+      "valid": "✓ Gültiges E-Mail-Format",
+      "invalid": "✗"
+    },
+    "phone": {
+      "label": "Telefonnummer",
+      "placeholder": "Geben Sie Ihre Telefonnummer ein",
+      "valid": "✓ Gültige Telefonnummer",
+      "invalid": "Bitte geben Sie eine gültige Telefonnummer ein",
+      "required": "Telefonnummer ist erforderlich"
+    },
+    "useCase": {
+      "label": "Wie werden Sie DotCTL verwenden?",
+      "placeholder": "Bitte teilen Sie uns Ihren spezifischen Anwendungsfall für DotCTL mit. Welche Probleme möchten Sie lösen oder welche Funktionen interessieren Sie am meisten?",
+      "valid": "✓ Gültige Anwendungsfallbeschreibung",
+      "invalid": "✗",
+      "chars": "Zeichen"
+    },
+    "skillLevel": {
+      "label": "Ihr Kompetenzniveau",
+      "beginner": "Anfänger - Neu bei Netzwerktools",
+      "intermediate": "Fortgeschritten - Einige Netzwerkkenntnisse",
+      "advanced": "Experte - Erfahrener Netzwerkingenieur",
+      "required": "Bitte wählen Sie Ihr Kompetenzniveau aus",
+      "invalid": "✗"
+    },
+    "features": {
+      "label": "Funktionsinteressen",
+      "required": "Bitte wählen Sie mindestens eine Funktion aus, die Sie interessiert",
+      "max": "Bitte wählen Sie höchstens 5 Funktionen aus",
+      "advanced": "Fortgeschrittene Benutzer sollten mindestens 2 Funktionen auswählen",
+      "arp_spoofing": "ARP-Spoofing & MITM",
+      "bandwidth_limiting": "Bandbreitenbegrenzung",
+      "traffic_monitoring": "Verkehrsüberwachung & -analyse",
+      "dns_spoofing": "DNS-Spoofing & Umleitung",
+      "content_injection": "Content-Injection",
+      "session_hijacking": "Session-Hijacking",
+      "deep_packet_inspection": "Deep Packet Inspection",
+      "stealth_features": "Stealth & Evasion",
+      "ml_traffic_analysis": "ML-Verkehrsanalyse"
+    },
+    "referral": {
+      "label": "Wie haben Sie von DotCTL erfahren?",
+      "github": "GitHub",
+      "stackoverflow": "Stack Overflow",
+      "twitter": "Twitter",
+      "linkedin": "LinkedIn",
+      "reddit": "Reddit",
+      "hacker_news": "Hacker News",
+      "search": "Suchmaschine",
+      "friend": "Freund/Kollege",
+      "article": "Blog/Artikel",
+      "other": "Andere",
+      "required": "Bitte wählen Sie aus, wie Sie von DotCTL erfahren haben"
+    },
+    "updates": {
+      "label": "Senden Sie mir Updates zu DotCTL Beta-Fortschritten"
+    },
+    "buttons": {
+      "back": "Zurück",
+      "next": "Weiter",
+      "submit": "Beta-Zugang erhalten",
+      "submitting": "Wird gesendet..."
+    }
+  },
+  "validation": {
+    "name": {
+      "min": "Der Name muss mindestens 2 Zeichen lang sein",
+      "max": "Der Name darf nicht länger als 50 Zeichen sein",
+      "regex": "Der Name darf nur Buchstaben, Leerzeichen, Bindestriche und Apostrophe enthalten"
+    },
+    "email": {
+      "required": "E-Mail ist erforderlich",
+      "invalid": "Bitte geben Sie eine gültige E-Mail-Adresse ein",
+      "max": "E-Mail-Adresse ist zu lang",
+      "format": "Ungültiges E-Mail-Format"
+    },
+    "phone": {
+      "min": "Die Telefonnummer muss mindestens 10 Ziffern haben",
+      "max": "Telefonnummer ist zu lang",
+      "regex": "Telefonnummer darf nur Ziffern, Leerzeichen, Bindestriche, Klammern und + enthalten"
+    },
+    "useCase": {
+      "min": "Bitte geben Sie mindestens 10 Zeichen an, die Ihren Anwendungsfall beschreiben",
+      "max": "Anwendungsfallbeschreibung ist zu lang (maximal 500 Zeichen)",
+      "spam": "Bitte geben Sie eine echte Anwendungsfallbeschreibung an"
+    },
+    "warnings": {
+      "limit": "Warnung: Nah an der Zeichengrenze ({{current}}/{{max}})"
+    }
+  },
+  "agreement": {
+    "prefix": "Durch das Absenden dieses Formulars stimmen Sie unseren",
+    "termsLink": "Nutzungsbedingungen",
+    "and": "und",
+    "privacyLink": "Datenschutzrichtlinie"
+  },
+  "errors": {
+    "network": "Netzwerkfehler. Bitte versuchen Sie es erneut.",
+    "duplicate": "Diese E-Mail ist bereits registriert",
+    "generic": "Etwas ist schiefgegangen. Bitte versuchen Sie es erneut."
+  }
+}

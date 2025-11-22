@@ -1,0 +1,81 @@
+{
+  "header": {
+    "title": "Terms of Service",
+    "lastUpdated": "Last updated: November 2025"
+  },
+  "introduction": {
+    "title": "Introduction",
+    "paragraph1": "These Terms of Service (\"Terms\") govern your access to and use of DotCTL (\"the Software\"), a network traffic control and analysis tool provided by us (\"we\", \"us\", or \"our\"). By accessing or using DotCTL, you agree to be bound by these Terms.",
+    "paragraph2": "Please read these Terms carefully before using DotCTL. If you do not agree to these Terms, please do not use the Software."
+  },
+  "definitions": {
+    "title": "Definitions",
+    "software": "\"DotCTL\" means the Dynamic Overhead Traffic Control software and all related documentation, updates, and components.",
+    "user": "\"User\" or \"you\" means any individual or entity using DotCTL.",
+    "beta": "\"Beta\" means the testing phase of DotCTL where features may be incomplete, contain bugs, or change without notice."
+  },
+  "license": {
+    "title": "License Grant",
+    "paragraph1": "Subject to your compliance with these Terms, we grant you a limited, non-exclusive, non-transferable license to use DotCTL for personal or internal business purposes only.",
+    "paragraph2": "This license does not include any right to modify, distribute, sell, or sublicense DotCTL in any form."
+  },
+  "betaTerms": {
+    "title": "Beta Testing Terms",
+    "paragraph1": "DotCTL is currently in beta. Beta features may be unstable, may not work as intended, and may cause damage to your systems or networks.",
+    "paragraph2": "You acknowledge and agree that you use DotCTL at your own risk and that we are not responsible for any damages arising from your use of beta features.",
+    "paragraph3": "You agree to provide feedback on DotCTL's performance, bugs, and usability."
+  },
+  "userObligations": {
+    "title": "User Obligations",
+    "paragraph1": "You must use DotCTL only on networks that you own or have explicit permission to manage.",
+    "paragraph2": "You must not use DotCTL for any illegal purposes, including but not limited to unauthorized network monitoring, traffic interception, or any activities that violate applicable laws.",
+    "paragraph3": "You are responsible for maintaining the confidentiality of any access credentials and for all activities that occur under your account."
+  },
+  "acceptableUse": {
+    "title": "Acceptable Use Policy",
+    "paragraph1": "You agree not to use DotCTL to:",
+    "bullet1": "Violate any applicable laws or regulations",
+    "bullet2": "Infringe on the rights of others",
+    "bullet3": "Transmit viruses, malware, or other harmful code",
+    "bullet4": "Attempt to gain unauthorized access to networks or systems",
+    "bullet5": "Conduct network attacks, denial of service attacks, or any form of cyber attack",
+    "bullet6": "Harass, threaten, or abuse individuals or organizations"
+  },
+  "privacy": {
+    "title": "Privacy and Data Collection",
+    "paragraph1": "Your privacy is important to us. Please refer to our Privacy Policy for information about how we collect, use, and protect your personal information.",
+    "paragraph2": "DotCTL may collect technical data about your network usage solely for improving the software and providing support."
+  },
+  "disclaimers": {
+    "title": "Disclaimers",
+    "paragraph1": "\"AS IS\" BASIS: DotCTL is provided \"as is\" without warranties of any kind, express or implied.",
+    "paragraph2": "We do not warrant that DotCTL will be error-free, secure, or compatible with your systems.",
+    "paragraph3": "We make no representations about the accuracy, completeness, or suitability of information provided by DotCTL.",
+    "paragraph4": "Network tools are complex and may have unpredictable effects on your network environment. Use with caution."
+  },
+  "limitation": {
+    "title": "Limitation of Liability",
+    "paragraph1": "To the maximum extent permitted by law, we will not be liable for any direct, indirect, incidental, consequential, or punitive damages arising from your use of DotCTL.",
+    "paragraph2": "This includes but is not limited to damages for loss of profits, data, or network disruption.",
+    "paragraph3": "Our total liability under these Terms shall not exceed the amount you paid for DotCTL (if any)."
+  },
+  "termination": {
+    "title": "Termination",
+    "paragraph1": "We may terminate your access to DotCTL at any time for violation of these Terms.",
+    "paragraph2": "Upon termination, all rights granted to you under these Terms will cease."
+  },
+  "changes": {
+    "title": "Changes to Terms",
+    "paragraph1": "We may update these Terms from time to time. We will notify you of any material changes.",
+    "paragraph2": "Your continued use of DotCTL after changes constitutes acceptance of the new Terms."
+  },
+  "governing": {
+    "title": "Governing Law",
+    "paragraph1": "These Terms are governed by the laws of [Your Jurisdiction], without regard to conflict of law principles."
+  },
+  "contact": {
+    "title": "Contact Us",
+    "paragraph1": "If you have questions about these Terms, please contact us at:",
+    "email": "support@dotctl.com"
+  }
+}

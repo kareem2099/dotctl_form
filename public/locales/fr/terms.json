@@ -1,0 +1,81 @@
+{
+  "header": {
+    "title": "Conditions d'utilisation",
+    "lastUpdated": "Dernière mise à jour : novembre 2025"
+  },
+  "introduction": {
+    "title": "Introduction",
+    "paragraph1": "Ces Conditions d'utilisation (« Conditions ») régissent votre accès et votre utilisation de DotCTL (« le Logiciel »), un outil de contrôle et d'analyse du trafic réseau fourni par nous (« nous », « nos » ou « notre »). En accédant à DotCTL ou en l'utilisant, vous acceptez d'être lié par ces Conditions.",
+    "paragraph2": "Veuillez lire attentivement ces Conditions avant d'utiliser DotCTL. Si vous n'acceptez pas ces Conditions, veuillez ne pas utiliser le Logiciel."
+  },
+  "definitions": {
+    "title": "Définitions",
+    "software": "« DotCTL » signifie le logiciel Dynamic Overhead Traffic Control et toute la documentation, mises à jour et composants connexes.",
+    "user": "« Utilisateur » ou « vous » signifie toute personne physique ou morale utilisant DotCTL.",
+    "beta": "« Bêta » signifie la phase de test de DotCTL où les fonctionnalités peuvent être incomplètes, contenir des bugs ou changer sans préavis."
+  },
+  "license": {
+    "title": "Octroi de licence",
+    "paragraph1": "Sous réserve de votre conformité à ces Conditions, nous vous accordons une licence limitée, non exclusive, non transférable pour utiliser DotCTL uniquement à des fins personnelles ou internes d'affaires.",
+    "paragraph2": "Cette licence n'inclut pas le droit de modifier, distribuer, vendre ou sous-licencier DotCTL sous quelque forme que ce soit."
+  },
+  "betaTerms": {
+    "title": "Conditions de test bêta",
+    "paragraph1": "DotCTL est actuellement en bêta. Les fonctionnalités bêta peuvent être instables, peuvent ne pas fonctionner comme prévu et peuvent endommager vos systèmes ou réseaux.",
+    "paragraph2": "Vous reconnaissez et acceptez que vous utilisez DotCTL à vos propres risques et que nous ne sommes pas responsables des dommages résultant de l'utilisation des fonctionnalités bêta.",
+    "paragraph3": "Vous acceptez de fournir des retours sur les performances, bugs et convivialité de DotCTL."
+  },
+  "userObligations": {
+    "title": "Obligations de l'utilisateur",
+    "paragraph1": "Vous devez utiliser DotCTL uniquement sur les réseaux que vous possédez ou pour lesquels vous avez une permission explicite de gestion.",
+    "paragraph2": "Vous ne devez pas utiliser DotCTL à des fins illégales, y compris, sans limitation, la surveillance réseau non autorisée, l'interception de trafic ou toute activité violant les lois applicables.",
+    "paragraph3": "Vous êtes responsable du maintien de la confidentialité de toute information d'identification d'accès et de toutes les activités qui se déroulent sous votre compte."
+  },
+  "acceptableUse": {
+    "title": "Politique d'utilisation acceptable",
+    "paragraph1": "Vous acceptez de ne pas utiliser DotCTL pour :",
+    "bullet1": "Violer toute loi ou règlement applicable",
+    "bullet2": "Enfreindre les droits d'autrui",
+    "bullet3": "Transmettre des virus, logiciels malveillants ou tout code nuisible",
+    "bullet4": "Tenter d'accéder de manière non autorisée à des réseaux ou systèmes",
+    "bullet5": "Conduire des attaques réseau, attaques de déni de service ou toute forme d'attaque cyber",
+    "bullet6": "Harceler, menacer ou abuser d'individus ou d'organisations"
+  },
+  "privacy": {
+    "title": "Confidentialité et collecte de données",
+    "paragraph1": "Votre confidentialité est importante pour nous. Veuillez vous référer à notre Politique de confidentialité pour des informations sur la façon dont nous collectons, utilisons et protégeons vos informations personnelles.",
+    "paragraph2": "DotCTL peut collecter des données techniques sur votre utilisation réseau uniquement pour améliorer le logiciel et fournir un support."
+  },
+  "disclaimers": {
+    "title": "Avertissements",
+    "paragraph1": "« TEL QUEL » : DotCTL est fourni « tel quel » sans garanties d'aucune sorte, expresses ou implicites.",
+    "paragraph2": "Nous ne garantissons pas que DotCTL sera exempt d'erreurs, sécurisé ou compatible avec vos systèmes.",
+    "paragraph3": "Nous ne faisons aucune déclaration sur l'exactitude, l'exhaustivité ou l'adéquation des informations fournies par DotCTL.",
+    "paragraph4": "Les outils réseau sont complexes et peuvent avoir des effets imprévisibles sur votre environnement réseau. Utilisez avec prudence."
+  },
+  "limitation": {
+    "title": "Limitation de responsabilité",
+    "paragraph1": "Dans la mesure maximale permise par la loi, nous ne serons pas responsables de tout dommage direct, indirect, incident, consécutif ou punitif résultant de votre utilisation de DotCTL.",
+    "paragraph2": "Cela inclut, sans limitation, les dommages pour perte de profits, données ou interruption réseau.",
+    "paragraph3": "Notre responsabilité totale en vertu de ces Conditions ne dépassera pas le montant que vous avez payé pour DotCTL (le cas échéant)."
+  },
+  "termination": {
+    "title": "Résiliation",
+    "paragraph1": "Nous pouvons résilier votre accès à DotCTL à tout moment en cas de violation de ces Conditions.",
+    "paragraph2": "À la résiliation, tous les droits accordés à vous en vertu de ces Conditions cesseront."
+  },
+  "changes": {
+    "title": "Changements dans les Conditions",
+    "paragraph1": "Nous pouvons mettre à jour ces Conditions de temps à autre. Nous vous informerons de tout changement matériel.",
+    "paragraph2": "Votre utilisation continue de DotCTL après les changements constitue l'acceptation des nouvelles Conditions."
+  },
+  "governing": {
+    "title": "Droit applicable",
+    "paragraph1": "Ces Conditions sont régies par les lois de [Votre Juridiction], sans égard aux principes de conflit de lois."
+  },
+  "contact": {
+    "title": "Contactez-nous",
+    "paragraph1": "Si vous avez des questions concernant ces Conditions, veuillez nous contacter à :",
+    "email": "support@dotctl.com"
+  }
+}

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Arabic:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700&display=swap');
 @import "tailwindcss";
 
 :root {
@@ -5,12 +7,16 @@
   --foreground: #171717;
 }
 
+/* Tailwind CSS v4 theme overrides - may not be supported in all environments */
+/* Commenting out @theme directive to avoid CSS warnings */
+/*
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
 }
+*/
 
 @media (prefers-color-scheme: dark) {
   :root {
@@ -23,4 +29,563 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Native select dropdown styling */
+select {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='rgba(255,255,255,0.8)' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3e%3cpolyline points='6 9 12 15 18 9'%3e%3c/polyline%3e%3c/svg%3e");
+  background-repeat: no-repeat;
+  background-position: right 12px center;
+  background-size: 20px;
+  padding-right: 40px !important;
+}
+
+/* Select dropdown options */
+select option {
+  background-color: #7c3aed !important;
+  background: #7c3aed !important;
+  color: #ffffff !important;
+  padding: 12px !important;
+  font-size: 15px !important;
+  font-weight: 500 !important;
+}
+
+select option:hover {
+  background-color: #6d28d9 !important;
+  background: #6d28d9 !important;
+}
+
+select option:checked {
+  background-color: #6d28d9 !important;
+  background: linear-gradient(135deg, #6d28d9 0%, #5b21b6 100%) !important;
+  color: #ffffff !important;
+  font-weight: 600 !important;
+}
+
+/* For Firefox */
+select option:checked {
+  background: #6d28d9 !important;
+}
+
+/* Specific targeting for your form selects */
+#skillLevel option,
+#referralSource option {
+  background-color: #7c3aed !important;
+  color: white !important;
+  padding: 10px !important;
+}
+
+/* Override the bg-purple-900 class */
+.bg-purple-900 {
+  background-color: #7c3aed !important;
+  color: white !important;
+}
+.PhoneInput {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px;
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 8px;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  transition: all 0.2s;
+  font-size: 16px;
+}
+
+.PhoneInput:focus-within {
+  border-color: rgba(255, 255, 255, 0.4);
+  box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.4);
+  outline: none;
+}
+
+.PhoneInputCountrySelect {
+  padding-right: 4px;
+  position: relative;
+}
+
+.PhoneInputCountrySelectSelector {
+  color: rgba(255, 255, 255, 0.9);
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  appearance: none;
+  padding-right: 20px;
+}
+
+.PhoneInputInput {
+  flex: 1;
+  background: transparent;
+  border: none;
+  outline: none;
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 16px;
+  padding: 0;
+  width: 100%;
+}
+
+.PhoneInputInput::placeholder {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.PhoneInputCountryIcon {
+  width: 16px;
+  height: 12px;
+  margin-right: 4px;
+}
+
+/* Phone input dropdown arrow */
+.PhoneInputCountrySelectArrow {
+  opacity: 0.9;
+  color: rgba(255, 255, 255, 0.8);
+  border-color: rgba(255, 255, 255, 0.8);
+}
+
+/* Dropdown menu container - ULTRA SPECIFIC */
+.PhoneInputCountrySelectDropdown,
+select.PhoneInputCountrySelect option,
+.PhoneInputCountry select option {
+  background: #6d28d9 !important;
+  background-color: #6d28d9 !important;
+  background-image: linear-gradient(135deg, #7c3aed 0%, #6d28d9 100%) !important;
+}
+
+.PhoneInputCountrySelectDropdown {
+  backdrop-filter: blur(12px) !important;
+  -webkit-backdrop-filter: blur(12px) !important;
+  border: 1px solid rgba(255, 255, 255, 0.3) !important;
+  border-radius: 8px !important;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5) !important;
+  max-height: 300px !important;
+  overflow-y: auto !important;
+  margin-top: 4px !important;
+  z-index: 1000 !important;
+  padding: 4px !important;
+}
+
+/* Individual dropdown options - MAXIMUM SPECIFICITY */
+.PhoneInputCountrySelectDropdown .PhoneInputCountryOption,
+.PhoneInputCountryOption,
+button.PhoneInputCountryOption {
+  background-color: transparent !important;
+  background: transparent !important;
+  color: #ffffff !important;
+  border: none !important;
+  padding: 12px 14px !important;
+  cursor: pointer !important;
+  transition: all 0.2s ease !important;
+  border-radius: 6px !important;
+  margin: 2px 0 !important;
+  font-size: 15px !important;
+  font-weight: 500 !important;
+}
+
+.PhoneInputCountrySelectDropdown .PhoneInputCountryOption:hover,
+.PhoneInputCountryOption:hover,
+button.PhoneInputCountryOption:hover,
+.PhoneInputCountrySelectDropdown .PhoneInputCountryOption:focus,
+.PhoneInputCountryOption:focus,
+button.PhoneInputCountryOption:focus {
+  background-color: rgba(255, 255, 255, 0.25) !important;
+  background: rgba(255, 255, 255, 0.25) !important;
+  outline: none !important;
+  color: #ffffff !important;
+}
+
+.PhoneInputCountryOption--selected,
+button.PhoneInputCountryOption--selected {
+  background-color: rgba(255, 255, 255, 0.3) !important;
+  background: rgba(255, 255, 255, 0.3) !important;
+  font-weight: 600 !important;
+  color: #ffffff !important;
+}
+
+.PhoneInputCountryOption--focused,
+button.PhoneInputCountryOption--focused {
+  background-color: rgba(255, 255, 255, 0.25) !important;
+  background: rgba(255, 255, 255, 0.25) !important;
+  color: #ffffff !important;
+}
+
+/* Country name in dropdown */
+.PhoneInputCountryOption .PhoneInputCountryIconImg {
+  margin-right: 10px !important;
+  vertical-align: middle !important;
+}
+
+/* ALL text elements in dropdown */
+.PhoneInputCountryOption *,
+.PhoneInputCountryOption span,
+.PhoneInputCountryOption strong,
+.PhoneInputCountryOption div {
+  color: #ffffff !important;
+}
+
+/* Calling code styling */
+.PhoneInputCountryOption strong {
+  font-weight: 600 !important;
+  margin-left: 6px !important;
+  font-size: 14px !important;
+}
+
+/* Country name styling */
+.PhoneInputCountryOption > span {
+  font-size: 15px !important;
+  font-weight: 500 !important;
+}
+
+/* Scrollbar styling for dropdown */
+.PhoneInputCountrySelectDropdown::-webkit-scrollbar {
+  width: 10px;
+}
+
+.PhoneInputCountrySelectDropdown::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  margin: 4px;
+}
+
+.PhoneInputCountrySelectDropdown::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.4);
+  border-radius: 5px;
+  border: 2px solid transparent;
+  background-clip: padding-box;
+}
+
+.PhoneInputCountrySelectDropdown::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.6);
+  background-clip: padding-box;
+}
+
+/* Global scrollbar styling to match purple theme */
+::-webkit-scrollbar {
+  width: 12px;
+  height: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(109, 40, 217, 0.3);
+  border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #a78bfa 0%, #8b5cf6 50%, #7c3aed 100%);
+  border-radius: 6px;
+  border: 2px solid rgba(109, 40, 217, 0.3);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(180deg, #c4b5fd 0%, #a78bfa 50%, #8b5cf6 100%);
+  border: 2px solid rgba(109, 40, 217, 0.5);
+}
+
+::-webkit-scrollbar-thumb:active {
+  background: linear-gradient(180deg, #8b5cf6 0%, #7c3aed 50%, #6d28d9 100%);
+}
+
+/* For Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #8b5cf6 rgba(109, 40, 217, 0.3);
+}
+
+/* Line height adjustments for Arabic */
+html[lang="ar"] * {
+  line-height: 1.35 !important;
+}
+
+
+/* RTL Support for Arabic */
+html[lang="ar"] {
+  direction: rtl;
+}
+
+html[lang="ar"] .form-container {
+  text-align: right;
+}
+
+
+
+/* Font Families for Different Languages */
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+}
+
+html[lang="ar"] body {
+  font-family: 'Noto Sans Arabic', Arial, sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.5;
+  direction: rtl;
+}
+
+html[lang="fr"] body {
+  font-family: 'Inter', 'Segoe UI', Roboto, sans-serif;
+}
+
+/* RTL Form Adjustments */
+html[lang="ar"] input,
+html[lang="ar"] textarea,
+html[lang="ar"] select {
+  text-align: right;
+}
+
+html[lang="ar"] input::placeholder,
+html[lang="ar"] textarea::placeholder {
+  text-align: right;
+  direction: rtl;
+}
+
+html[lang="ar"] .phone-input-container {
+  direction: ltr; /* Keep phone numbers LTR */
+}
+
+html[lang="ar"] .rtl-reverse {
+  flex-direction: row-reverse;
+}
+
+html[lang="ar"] .space-x-4 > * + *,
+html[lang="ar"] .space-x-2 > * + * {
+  margin-left: 0;
+  margin-right: var(--tw-space-x-reverse) * calc(1px - var(--tw-space-x-reverse));
+}
+
+/* Custom animations */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fadeInUp {
+  animation: fadeInUp 0.6s ease-out;
+}
+
+/* Floating animation for the form container */
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+/* Gradient animation for background */
+@keyframes gradientShift {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/* Pulse animation for icons */
+@keyframes pulse {
+  0%, 100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.8;
+    transform: scale(1.05);
+  }
+}
+
+/* Shimmer effect */
+@keyframes shimmer {
+  0% {
+    background-position: -1000px 0;
+  }
+  100% {
+    background-position: 1000px 0;
+  }
+}
+
+/* Slide in from left */
+@keyframes slideInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* Slide in from right */
+@keyframes slideInRight {
+  from {
+    opacity: 0;
+    transform: translateX(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* Bounce in */
+@keyframes bounceIn {
+  0% {
+    opacity: 0;
+    transform: scale(0.3);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1.05);
+  }
+  70% {
+    transform: scale(0.9);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+/* Rotate and scale */
+@keyframes rotateScale {
+  0% {
+    transform: rotate(0deg) scale(1);
+  }
+  50% {
+    transform: rotate(180deg) scale(1.2);
+  }
+  100% {
+    transform: rotate(360deg) scale(1);
+  }
+}
+
+/* Glow effect */
+@keyframes glow {
+  0%, 100% {
+    box-shadow: 0 0 5px rgba(167, 139, 250, 0.5),
+                0 0 10px rgba(167, 139, 250, 0.3),
+                0 0 15px rgba(167, 139, 250, 0.2);
+  }
+  50% {
+    box-shadow: 0 0 10px rgba(167, 139, 250, 0.8),
+                0 0 20px rgba(167, 139, 250, 0.6),
+                0 0 30px rgba(167, 139, 250, 0.4);
+  }
+}
+
+/* Smooth background gradient animation */
+body {
+  animation: gradientShift 15s ease infinite;
+  background-size: 200% 200%;
+}
+
+/* Input field focus animation */
+input:focus,
+textarea:focus,
+select:focus {
+  animation: glow 2s ease-in-out infinite;
+}
+
+/* Icon pulse animation */
+.lucide {
+  animation: pulse 2s ease-in-out infinite;
+}
+
+/* Button hover shimmer effect */
+button:not(:disabled):hover {
+  position: relative;
+  overflow: hidden;
+}
+
+button:not(:disabled):hover::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(255, 255, 255, 0.3),
+    transparent
+  );
+  animation: shimmer 1.5s infinite;
+}
+
+/* Checkbox animation */
+input[type="checkbox"] {
+  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+input[type="checkbox"]:checked {
+  animation: bounceIn 0.5s ease;
+}
+
+/* Form field staggered animation */
+form > div:nth-child(1) {
+  animation: slideInLeft 0.6s ease-out 0.1s both;
+}
+
+form > div:nth-child(2) {
+  animation: slideInRight 0.6s ease-out 0.2s both;
+}
+
+form > div:nth-child(3) {
+  animation: slideInLeft 0.6s ease-out 0.3s both;
+}
+
+form > div:nth-child(4) {
+  animation: slideInRight 0.6s ease-out 0.4s both;
+}
+
+form > div:nth-child(5) {
+  animation: slideInLeft 0.6s ease-out 0.5s both;
+}
+
+form > div:nth-child(6) {
+  animation: slideInRight 0.6s ease-out 0.6s both;
+}
+
+form > div:nth-child(7) {
+  animation: slideInLeft 0.6s ease-out 0.7s both;
+}
+
+form > div:nth-child(8) {
+  animation: slideInRight 0.6s ease-out 0.8s both;
+}
+
+form > button {
+  animation: bounceIn 0.8s ease-out 0.9s both;
+}
+
+/* Phone input dropdown animation */
+.PhoneInputCountrySelectDropdown {
+  animation: slideInLeft 0.3s ease-out;
+}
+
+/* Success checkmark animation */
+.text-green-400 {
+  animation: rotateScale 0.8s ease-out;
+}
+
+/* Smooth scrollbar animation */
+::-webkit-scrollbar-thumb {
+  transition: all 0.3s ease;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  animation: glow 1.5s ease-in-out infinite;
 }

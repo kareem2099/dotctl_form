@@ -1,0 +1,128 @@
+{
+  "header": {
+    "title": "Try DotCTL",
+    "subtitle": "Join our beta access list",
+    "description": "You've been added to the Try DotCTL beta access list. We'll be in touch soon!",
+    "draftSaved": "Draft saved",
+    "draftCleared": "Draft cleared",
+    "clearDraft": "Clear Draft"
+  },
+  "steps": {
+    "personal": "Personal Info",
+    "about": "About You",
+    "interests": "Interests",
+    "step": "Step",
+    "of": "of"
+  },
+  "fields": {
+    "name": {
+      "label": "Full Name",
+      "placeholder": "Your full name",
+      "valid": "✓ Valid name",
+      "invalid": "✗"
+    },
+    "email": {
+      "label": "Email Address",
+      "placeholder": "your.email@example.com",
+      "valid": "✓ Valid email format",
+      "invalid": "✗"
+    },
+    "phone": {
+      "label": "Phone Number",
+      "placeholder": "Enter your phone number",
+      "valid": "✓ Valid phone number",
+      "invalid": "Please enter a valid phone number",
+      "required": "Phone number is required"
+    },
+    "useCase": {
+      "label": "How will you use DotCTL?",
+      "placeholder": "Please tell us about your specific use case for DotCTL. What problems are you looking to solve or what features interest you most?",
+      "valid": "✓ Valid use case description",
+      "invalid": "✗",
+      "chars": "characters"
+    },
+    "skillLevel": {
+      "label": "Your Skill Level",
+      "beginner": "Beginner - New to network tools",
+      "intermediate": "Intermediate - Some network knowledge",
+      "advanced": "Advanced - Expert network engineer",
+      "required": "Please select your skill level",
+      "invalid": "✗"
+    },
+    "features": {
+      "label": "Feature Interests",
+      "required": "Please select at least one feature you're interested in",
+      "max": "Please select no more than 5 features",
+      "advanced": "Advanced users should select at least 2 features",
+      "arp_spoofing": "ARP Spoofing & MITM",
+      "bandwidth_limiting": "Bandwidth Limiting",
+      "traffic_monitoring": "Traffic Monitoring & Analysis",
+      "dns_spoofing": "DNS Spoofing & Redirection",
+      "content_injection": "Content Injection",
+      "session_hijacking": "Session Hijacking",
+      "deep_packet_inspection": "Deep Packet Inspection",
+      "stealth_features": "Stealth & Evasion",
+      "ml_traffic_analysis": "ML Traffic Analysis"
+    },
+    "referral": {
+      "label": "How did you hear about DotCTL?",
+      "github": "GitHub",
+      "stackoverflow": "Stack Overflow",
+      "twitter": "Twitter",
+      "linkedin": "LinkedIn",
+      "reddit": "Reddit",
+      "hacker_news": "Hacker News",
+      "search": "Search Engine",
+      "friend": "Friend/Colleague",
+      "article": "Blog/Article",
+      "other": "Other",
+      "required": "Please select how you heard about DotCTL"
+    },
+    "updates": {
+      "label": "Send me updates about DotCTL beta progress"
+    },
+    "buttons": {
+      "back": "Back",
+      "next": "Next",
+      "submit": "Get Beta Access",
+      "submitting": "Submitting..."
+    }
+  },
+  "validation": {
+    "name": {
+      "min": "Name must be at least 2 characters long",
+      "max": "Name must be less than 50 characters",
+      "regex": "Name can only contain letters, spaces, hyphens, and apostrophes"
+    },
+    "email": {
+      "required": "Email is required",
+      "invalid": "Please enter a valid email address",
+      "max": "Email address is too long",
+      "format": "Invalid email format"
+    },
+    "phone": {
+      "min": "Phone number must be at least 10 digits",
+      "max": "Phone number is too long",
+      "regex": "Phone number can only contain numbers, spaces, dashes, parentheses, and +"
+    },
+    "useCase": {
+      "min": "Please provide at least 10 characters describing your use case",
+      "max": "Use case description is too long (max 500 characters)",
+      "spam": "Please provide a genuine use case description"
+    },
+    "warnings": {
+      "limit": "Warning: Close to character limit ({{current}}/{{max}})"
+    }
+  },
+  "agreement": {
+    "prefix": "By submitting this form, you agree to our",
+    "termsLink": "Terms of Service",
+    "and": "and",
+    "privacyLink": "Privacy Policy"
+  },
+  "errors": {
+    "network": "Network error. Please try again.",
+    "duplicate": "This email is already registered",
+    "generic": "Something went wrong. Please try again."
+  }
+}

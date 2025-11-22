@@ -1,0 +1,146 @@
+{
+  "language": {
+    "english": "English",
+    "arabic": "العربية",
+    "french": "Français",
+    "russian": "Русский",
+    "german": "Deutsch",
+    "spanish": "Español"
+  },
+  "nav": {
+    "back": "Retour",
+    "next": "Suivant",
+    "submit": "Soumettre",
+    "saving": "Sauvegarde...",
+    "submitting": "Soumission..."
+  },
+  "status": {
+    "saved": "Brouillon sauvegardé",
+    "cleared": "Brouillon effacé",
+    "loading": "Chargement...",
+    "success": "Succès!",
+    "error": "Une erreur s'est produite"
+  },
+  "validation": {
+    "valid": "Valide",
+    "invalid": "Invalide",
+    "required": "Requis"
+  },
+  "home": {
+    "title": "DotCTL",
+    "subtitle": "Contrôle et Surveillance Avancée du Réseau",
+    "description": "Prenez le contrôle de votre trafic réseau avec des outils professionnels",
+    "trafficControl": "Contrôle du Trafic",
+    "trafficControlDesc": "Configurez les limites de bande passante, le routage du trafic et les politiques réseau",
+    "deepInspection": "Inspection Approfondie",
+    "deepInspectionDesc": "Analysez les en-têtes de paquets, le filtrage de contenu et la détection de protocole",
+    "betaProgram": "Programme Bêta",
+    "betaProgramDesc": "Rejoignez notre bêta exclusive pour essayer les dernières fonctionnalités en premier",
+    "checkStatusButton": "Vérifier le Statut",
+    "joinBetaButton": "Rejoindre le Programme Bêta",
+    "accessNote": "Vous avez déjà accès ? Vérifiez votre statut bêta pour voir votre tableau de bord"
+  },
+  "check": {
+    "welcomeBack": "Content de vous revoir !",
+    "checkStatus": "Vérifiez votre statut d'accès bêta",
+    "emailPlaceholder": "Entrez votre adresse e-mail",
+    "continueButton": "Continuer",
+    "checkingButton": "Vérification...",
+    "newUser": "Nouvel utilisateur ? Nous vous guiderons à travers le processus d'inscription.",
+    "goToSignup": "Aller au formulaire d'inscription →",
+    "homeButton": "Accueil",
+    "errorMessage": "Impossible de vérifier le statut d'enregistrement"
+  },
+  "dashboard": {
+    "loading": {
+      "title": "Chargement du tableau de bord...",
+      "subtitle": "Vérification de votre accès bêta"
+    },
+    "error": {
+      "title": "Erreur",
+      "connectionError": "Erreur de connexion. Veuillez réessayer.",
+      "unknownError": "Impossible de vérifier votre statut"
+    },
+    "access": {
+      "restricted": {
+        "title": "Accès restreint",
+        "message": "Vous avez besoin d'un accès bêta pour voir ce tableau de bord.",
+        "checkStatus": "Vérifier le statut",
+        "joinBeta": "Rejoindre le programme bêta"
+      }
+    },
+    "referral": {
+      "accessGranted": "Accès bêta accordé !",
+      "waitlistMessage": "Vous êtes sur la liste d'attente et prêt à gagner des récompenses",
+      "yourCode": "Votre code de parrainage",
+      "shareInstruction": "Partagez ce code ou lien avec des amis pour gagner des mois pro gratuits !",
+      "copyLink": "Copier le lien de partage",
+      "linkCopied": "Lien de partage copié dans le presse-papiers !",
+      "qrCode": "Code QR pour partager",
+      "qrDescription": "Parfait pour le partage mobile - les amis peuvent simplement scanner ce code !",
+      "downloadQr": "Télécharger QR",
+      "printCard": "Imprimer la carte",
+      "qrTip": "💡 Conseil : Partagez ce code QR sur des cartes de visite, des flyers ou partout où votre public peut facilement le scanner !"
+    },
+    "socialShare": {
+      "title": "Partager sur les réseaux sociaux :"
+    },
+    "sharing": {
+      "hashtags": {
+        "joinBeta": "🚀 Rejoignez DotCTL Beta! 🔑 Code : {{code}} {{link}}",
+        "joinBetaShort": "🚀 Rejoignez DotCTL Beta! Code : {{code}}",
+        "ultimateTool": "🚀 Rejoignez DotCTL Beta - l'outil ultime de contrôle du trafic réseau !",
+        "useCode": "🔑 Utilisez mon code de parrainage : {{code}}",
+        "earnFree": "✨ Gagnez des mois pro gratuits en rejoignant via mon lien !",
+        "combinedMessage": "🚀 Rejoignez DotCTL Beta - l'outil ultime de contrôle du trafic réseau !\n\n🔑 Utilisez mon code de parrainage : {{code}}\n\n✨ Gagnez des mois pro gratuits en rejoignant via mon lien !\n\n{{link}}"
+      }
+    },
+    "achievements": {
+      "title": "Vos réalisations",
+      "earnedFrom": "Gagné de {{count}} parrainage",
+      "earnedFromPlural": "Gagné de {{count}} parrainages"
+    },
+    "stats": {
+      "referrals": "Parrainages",
+      "rewardMonths": "Mois de récompense"
+    },
+    "progress": {
+      "remaining": "{{count}} parrainage supplémentaire requis",
+      "remainingPlural": "{{count}} parrainages supplémentaires requis",
+      "reward": "Récompense : {{reward}} + temps pro gratuit supplémentaire ! ✨"
+    },
+    "subscription": {
+      "title": "Votre accès pro gratuit",
+      "earnedFrom": "Gagné de {{count}} parrainage",
+      "earnedFromPlural": "Gagné de {{count}} parrainages"
+    },
+    "Actions": {
+      "tryAgain": "Réessayer",
+      "checkAnotherEmail": "Vérifier un autre e-mail",
+      "notYourAccount": "Pas votre compte ? Vérifier un autre e-mail"
+    },
+    "milestones": {
+      "earlyInfluencer": {
+        "name": "Influenceur précoce",
+        "reward": "2 mois bonus"
+      },
+      "communityBuilder": {
+        "name": "Constructeur de communauté",
+        "reward": "3 mois bonus"
+      },
+      "referralChampion": {
+        "name": "Champion de parrainage",
+        "reward": "5 mois bonus"
+      },
+      "viralForce": {
+        "name": "Force virale",
+        "reward": "10 mois bonus"
+      },
+      "superSpreader": {
+        "name": "Super-propagateur",
+        "reward": "20 mois bonus"
+      },
+      "progressTo": "Progrès vers {{milestone}}"
+    }
+  }
+}

@@ -1,0 +1,128 @@
+{
+  "header": {
+    "title": "Probar DotCTL",
+    "subtitle": "Únete a nuestra lista de acceso beta",
+    "description": "Has sido añadido a la lista de acceso beta de Try DotCTL. ¡Nos pondremos en contacto pronto!",
+    "draftSaved": "Borrador guardado",
+    "draftCleared": "Borrador eliminado",
+    "clearDraft": "Limpiar borrador"
+  },
+  "steps": {
+    "personal": "Información personal",
+    "about": "Sobre ti",
+    "interests": "Intereses",
+    "step": "Paso",
+    "of": "de"
+  },
+  "fields": {
+    "name": {
+      "label": "Nombre completo",
+      "placeholder": "Tu nombre completo",
+      "valid": "✓ Nombre válido",
+      "invalid": "✗"
+    },
+    "email": {
+      "label": "Dirección de correo electrónico",
+      "placeholder": "tu.email@ejemplo.com",
+      "valid": "✓ Formato de email válido",
+      "invalid": "✗"
+    },
+    "phone": {
+      "label": "Número de teléfono",
+      "placeholder": "Ingresa tu número de teléfono",
+      "valid": "✓ Número de teléfono válido",
+      "invalid": "Por favor ingresa un número de teléfono válido",
+      "required": "El número de teléfono es requerido"
+    },
+    "useCase": {
+      "label": "¿Cómo usarás DotCTL?",
+      "placeholder": "Por favor cuéntanos sobre tu caso de uso específico para DotCTL. ¿Qué problemas quieres resolver o qué características te interesan más?",
+      "valid": "✓ Descripción de caso de uso válida",
+      "invalid": "✗",
+      "chars": "caracteres"
+    },
+    "skillLevel": {
+      "label": "Tu nivel de habilidad",
+      "beginner": "Principiante - Nuevo en herramientas de red",
+      "intermediate": "Intermedio - Algunos conocimientos de red",
+      "advanced": "Avanzado - Ingeniero de red experimentado",
+      "required": "Por favor selecciona tu nivel de habilidad",
+      "invalid": "✗"
+    },
+    "features": {
+      "label": "Intereses de características",
+      "required": "Por favor selecciona al menos una característica que te interese",
+      "max": "Por favor selecciona no más de 5 características",
+      "advanced": "Los usuarios avanzados deberían seleccionar al menos 2 características",
+      "arp_spoofing": "ARP Spoofing & MITM",
+      "bandwidth_limiting": "Limitación de ancho de banda",
+      "traffic_monitoring": "Monitoreo y análisis de tráfico",
+      "dns_spoofing": "DNS Spoofing & redireccionamiento",
+      "content_injection": "Inyección de contenido",
+      "session_hijacking": "Secuestro de sesión",
+      "deep_packet_inspection": "Inspección profunda de paquetes",
+      "stealth_features": "Sigilo y evasión",
+      "ml_traffic_analysis": "Análisis de tráfico con IA"
+    },
+    "referral": {
+      "label": "¿Cómo te enteraste de DotCTL?",
+      "github": "GitHub",
+      "stackoverflow": "Stack Overflow",
+      "twitter": "Twitter",
+      "linkedin": "LinkedIn",
+      "reddit": "Reddit",
+      "hacker_news": "Hacker News",
+      "search": "Motor de búsqueda",
+      "friend": "Amigo/Colega",
+      "article": "Blog/Artículo",
+      "other": "Otro",
+      "required": "Por favor selecciona cómo te enteraste de DotCTL"
+    },
+    "updates": {
+      "label": "Envíame actualizaciones sobre el progreso de la beta de DotCTL"
+    },
+    "buttons": {
+      "back": "Atrás",
+      "next": "Siguiente",
+      "submit": "Obtener acceso beta",
+      "submitting": "Enviando..."
+    }
+  },
+  "validation": {
+    "name": {
+      "min": "El nombre debe tener al menos 2 caracteres",
+      "max": "El nombre debe tener menos de 50 caracteres",
+      "regex": "El nombre solo puede contener letras, espacios, guiones y apóstrofes"
+    },
+    "email": {
+      "required": "El email es requerido",
+      "invalid": "Por favor ingresa una dirección de email válida",
+      "max": "La dirección de email es demasiado larga",
+      "format": "Formato de email inválido"
+    },
+    "phone": {
+      "min": "El número de teléfono debe tener al menos 10 dígitos",
+      "max": "El número de teléfono es demasiado largo",
+      "regex": "El número de teléfono solo puede contener números, espacios, guiones, paréntesis y +"
+    },
+    "useCase": {
+      "min": "Por favor proporciona al menos 10 caracteres describiendo tu caso de uso",
+      "max": "La descripción del caso de uso es demasiado larga (máximo 500 caracteres)",
+      "spam": "Por favor proporciona una descripción de caso de uso real"
+    },
+    "warnings": {
+      "limit": "Advertencia: Cerca del límite de caracteres ({{current}}/{{max}})"
+    }
+  },
+  "agreement": {
+    "prefix": "Al enviar este formulario, aceptas nuestros",
+    "termsLink": "Términos de Servicio",
+    "and": "y",
+    "privacyLink": "Política de Privacidad"
+  },
+  "errors": {
+    "network": "Error de red. Por favor intenta de nuevo.",
+    "duplicate": "Este email ya está registrado",
+    "generic": "Algo salió mal. Por favor intenta de nuevo."
+  }
+}
